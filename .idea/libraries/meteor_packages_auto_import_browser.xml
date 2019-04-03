@@ -174,6 +174,8 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/console.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -349,6 +351,8 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/console.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.8.0/web.browser/client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
     </CLASSES>
     <SOURCES />
   </library>

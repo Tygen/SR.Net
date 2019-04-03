@@ -1,0 +1,19 @@
+<template name="postItem">
+    <!--注意模板的 name="postsList" 属性，它的作用是告诉
+    Meteor 去根据这个名称来跟踪这个模板的位置。-->
+    <div class="post">
+        <div class="post-content">
+            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+        </div>
+    </div>
+</template>
+
+<!--Meteor's template-->
+<!--是时候来介绍 Meteor 的模板系统 Spacebars 了。Spacebar 就是
+简单的 HTML 加上三件事情：Inclusion （有时也称作 “partial”）、
+Expression 和 Block Helper。-->
+<!--Inclusion ：通过 {!{> templateName}} 标记，简单直接地告诉 Meteor 这部分需要用相同名称的模板来取代（在我们的例子中就是 postItem ）。
+
+Expression ：比如 {!{title}} 标记，它要么是调用当前对象的属性，要么就是对应到当前模板管理器中定义的 helper 方法，并返回其方法值（后面会详细讨论）。
+
+Block Helper ：在模板中控制流程的特殊标签，如 {!{#each}}…{!{/each}} 或 {!{#if}}…{!{/if}} 。-->-
